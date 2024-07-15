@@ -1,0 +1,59 @@
+{
+  "intents": [
+    {"tag": "greetings",
+      "patterns": ["Hello", "Hi", "Hey"],
+      "responses": ["Hello! How can I help you today?"]},
+    {"tag": "About",
+      "patterns": ["who are you?", "who build you?", "what is your name?","Tell me about you."],
+      "responses": ["My name is iConic_AI Restaurant Assistant I was build by Mr. ALHAJI WUMBEI."]},
+
+    {"tag": "order_food",
+      "patterns": ["I'd like to place an order", "Order food", "Can I get something to eat?","I want [available food]"],
+      "responses": ["What would you like to order?"]},
+
+    {"tag": "menu_enquiry",
+      "patterns": ["What's on the menu?", "Tell me about the menu", "What can I order?","which food is available","what food is available"],
+      "responses": ["Here is our menu: 1. Yam Chips(small  seize = Ghc 55.00, medium seize = ghc 70.00, large seize = Ghc 85.00) 2. Jelof Rice(small  seize = Ghc 55.00, medium seize = ghc 70.00, large seize = Ghc 85.00) 3. Fried Rice (small  seize = Ghc 55.00, medium seize = ghc 70.00, large seize = Ghc 85.00) 4. Plane Rice (small  seize = Ghc 55.00, medium seize = ghc 70.00, large seize = Ghc 85.00) 5. Banku with Tilapia, Okro stew or pepper(small seize = Ghc 75, medium seize = Ghc100, large seize = Ghc125 ) "]},
+
+    {"tag": "reservation",
+      "patterns": ["Book a table", "I want to make a reservation", "Reserve a table","I want to book a reservation", "i want to reserve a sit"],
+      "responses": ["How many people and for what time would you like to make a reservation?","sure! please fill the following details."]},
+
+    {"tag": "cancel_reservation",
+      "patterns": ["Cancel my reservation", "I need to cancel a booking", "Cancel table reservation"],
+      "responses": ["I'm sorry to hear that. Could you please provide the details of your reservation?"]},
+
+    {"tag": "modify_reservation",
+      "patterns": ["Change reservation", "Modify booking details", "Reschedule reservation"],
+      "responses": ["What changes would you like to make to your reservation?"]},
+    {"tag": "modify_orders",
+      "patterns": ["Change my orders", "Modify my ordering details", "change food", "i want to change a food"],
+      "responses": ["What changes would you like to make to your orders"]},
+
+    {"tag": "menu_suggestion",
+      "patterns": ["Suggest a dish", "Recommend a menu item", "What should I order with a budget of GHC20?"],
+      "responses": ["With a budget of GHC 20 and above, I recommend our [menu item]."]},
+
+    {"tag": "goodbye",
+      "patterns": ["Goodbye", "See you later", "Bye","thanks","thank you"],
+      "responses": ["Goodbye! Have a great day."]},
+
+    {"tag": "get_orders",
+      "patterns": ["show me my orders", "my orders"],
+      "responses": ["Sure! here are your orders."]},
+
+    {"tag": "reservations",
+      "patterns": ["I want to book a reservation", "i want to reserve a sit"],
+      "responses": ["sure! please fill the following details."]},
+
+    {"tag": "get_reservations",
+      "patterns": ["my reservations","show me my reservations","my bookings","show me my bookings"],
+      "responses": ["sure! here are your reservations."]},
+    {"tag": "cancel_orders",
+      "patterns": ["Cancel my orders", "I need to cancel my oreders", "Cancel order"],
+      "responses": ["I'm sorry to hear that. Could you please provide the details of your orders?"]},
+    {"tag": "goodbye",
+      "patterns": ["goodbye", "thank you", "thank you very much","thanks"],
+      "responses": ["you are welcome", "bye","we look forward to see you oneday again","have a nice day"]}
+  ]
+}
